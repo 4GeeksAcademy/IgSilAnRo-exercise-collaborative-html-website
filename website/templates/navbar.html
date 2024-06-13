@@ -1,5 +1,7 @@
 <!-- IgnacioQuiros -->
-<nav class="navbar navbar-expand-lg bg-dark">
+
+<!--Navbar without collapse small font for keeping the same formar in all screen sizes -->
+<!--<nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid justify-content-start">
         <div class="navbar-nav justify-content-start" style="display: flex; flex-direction: row; justify-content: space-between; width: 100%; ">
             <a class="navbar-brand" href="#" style="color: #6c757d; font-size: 12px; margin-left: 0; padding-left: 0;">Start Bootstrap</a>
@@ -9,4 +11,30 @@
             <a class="nav-link active" href="#" style="color: #6c757d; font-size: 12px; margin: 0 5px; padding-left: 0; padding-right: 0;">Contact</a>
         </div>
     </div>
-</nav>
+</nav>-->
+
+<!--Navbar with collapse (The most common navbar) -->
+<nav class="navbar navbar-expand-lg bg-dark ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: #6c757d;">Start Bootstrap</a>
+      <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: #6c757d;">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" style="color: #6c757d; ">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" style="color: #6c757d;">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " aria-disabled="true" href="#" style="color: #6c757d;">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
